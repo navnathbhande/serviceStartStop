@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication2
 {
-    partial class Form2
+    partial class mainpage
     {
         /// <summary>
         /// Required designer variable.
@@ -43,26 +43,29 @@
             // 
             this.status_label.AutoSize = true;
             this.status_label.ForeColor = System.Drawing.Color.Blue;
-            this.status_label.Location = new System.Drawing.Point(75, 108);
+            this.status_label.Location = new System.Drawing.Point(119, 106);
+            this.status_label.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.status_label.Name = "status_label";
-            this.status_label.Size = new System.Drawing.Size(46, 17);
+            this.status_label.Size = new System.Drawing.Size(73, 27);
             this.status_label.TabIndex = 16;
             this.status_label.Text = "status";
             // 
             // count_label
             // 
             this.count_label.AutoSize = true;
-            this.count_label.Location = new System.Drawing.Point(426, 63);
+            this.count_label.Location = new System.Drawing.Point(501, 113);
+            this.count_label.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.count_label.Name = "count_label";
-            this.count_label.Size = new System.Drawing.Size(43, 17);
+            this.count_label.Size = new System.Drawing.Size(69, 27);
             this.count_label.TabIndex = 15;
             this.count_label.Text = "count";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(622, 21);
+            this.button1.Location = new System.Drawing.Point(560, 35);
+            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 42);
+            this.button1.Size = new System.Drawing.Size(122, 71);
             this.button1.TabIndex = 14;
             this.button1.Text = "clear all";
             this.button1.UseVisualStyleBackColor = true;
@@ -70,16 +73,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(31, 154);
+            this.textBox1.Location = new System.Drawing.Point(32, 145);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 22);
+            this.textBox1.Size = new System.Drawing.Size(308, 34);
             this.textBox1.TabIndex = 13;
             // 
             // show_button
             // 
-            this.show_button.Location = new System.Drawing.Point(269, 21);
+            this.show_button.Location = new System.Drawing.Point(437, 35);
+            this.show_button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.show_button.Name = "show_button";
-            this.show_button.Size = new System.Drawing.Size(75, 42);
+            this.show_button.Size = new System.Drawing.Size(122, 71);
             this.show_button.TabIndex = 12;
             this.show_button.Text = "show all";
             this.show_button.UseVisualStyleBackColor = true;
@@ -87,9 +92,10 @@
             // 
             // rfresh_button
             // 
-            this.rfresh_button.Location = new System.Drawing.Point(69, 238);
+            this.rfresh_button.Location = new System.Drawing.Point(93, 277);
+            this.rfresh_button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.rfresh_button.Name = "rfresh_button";
-            this.rfresh_button.Size = new System.Drawing.Size(113, 38);
+            this.rfresh_button.Size = new System.Drawing.Size(184, 64);
             this.rfresh_button.TabIndex = 11;
             this.rfresh_button.Text = "Refresh";
             this.rfresh_button.UseVisualStyleBackColor = true;
@@ -97,9 +103,10 @@
             // 
             // stop_button
             // 
-            this.stop_button.Location = new System.Drawing.Point(69, 194);
+            this.stop_button.Location = new System.Drawing.Point(93, 203);
+            this.stop_button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.stop_button.Name = "stop_button";
-            this.stop_button.Size = new System.Drawing.Size(113, 38);
+            this.stop_button.Size = new System.Drawing.Size(184, 64);
             this.stop_button.TabIndex = 10;
             this.stop_button.Text = "stop";
             this.stop_button.UseVisualStyleBackColor = true;
@@ -108,18 +115,20 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(243, 86);
+            this.listBox1.ItemHeight = 27;
+            this.listBox1.Location = new System.Drawing.Point(395, 145);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(487, 292);
+            this.listBox1.Size = new System.Drawing.Size(303, 301);
             this.listBox1.TabIndex = 9;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // Form2
+            // mainpage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(835, 512);
+            this.BackColor = System.Drawing.Color.Cornsilk;
+            this.ClientSize = new System.Drawing.Size(753, 451);
             this.Controls.Add(this.status_label);
             this.Controls.Add(this.count_label);
             this.Controls.Add(this.button1);
@@ -128,7 +137,9 @@
             this.Controls.Add(this.rfresh_button);
             this.Controls.Add(this.stop_button);
             this.Controls.Add(this.listBox1);
-            this.Name = "Form2";
+            this.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Name = "mainpage";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();

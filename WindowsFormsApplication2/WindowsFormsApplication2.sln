@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication2", "WindowsFormsApplication2\WindowsFormsApplication2.csproj", "{4286399D-E00D-4F55-8289-C3DDC42270D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serviseStartStop", "WindowsFormsApplication2\serviseStartStop.csproj", "{4286399D-E00D-4F55-8289-C3DDC42270D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

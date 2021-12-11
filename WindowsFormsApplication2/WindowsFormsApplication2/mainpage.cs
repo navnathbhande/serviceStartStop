@@ -5,9 +5,9 @@ using System.ServiceProcess;
 
 namespace WindowsFormsApplication2
 {
-    public partial class Form2 : Form
+    public partial class mainpage : Form
     {
-        public Form2()
+        public mainpage()
         {
             InitializeComponent();
         }
